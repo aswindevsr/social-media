@@ -1,0 +1,108 @@
+.auth-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    /* margin-top: 5rem; */
+    width: 100%;
+    height: 100vh;
+    background: var(--color-primary-varient);
+    background-image: url(../../assets//texture-1.png);
+}
+.cont-auth{
+    background: var(--cardColor);
+    padding: 5rem 5rem;
+    border-radius: 1rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.left-auth{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-auth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 3rem; */
+}
+.infoInput{
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 2px solid var(--color-primary-varient);
+    resize: none;
+    color: var(--gray);
+    /* margin: 0.1rem; */
+}
+.row-auth{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+.infoEmail{
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 2px solid var(--color-primary-varient);
+    resize: none;
+    color: var(--gray);
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.ls{
+    cursor: pointer;
+}
+/* MEDIA QUERRY (TAB)  */
+
+@media screen and (max-width:1024px) {
+    .container{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
+
+/* MEDIA QUERRY (MOBILE)  */
+
+@media screen and (max-width:600px) {
+    .container{
+        width: var(--container-width-lg);
+    }
+    .left-auth{
+        display: none;
+    }
+    .cont-auth{
+        width: 100%;
+    }
+    .auth-container{
+        width: 80%;
+    }
+    .row-auth{
+        display: flex;
+        flex-direction: column;
+    }
+    .infoInput{
+        width: 100%;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        background: transparent;
+        border: 2px solid var(--color-primary-varient);
+        resize: none;
+        color: var(--color-white);
+        /* margin: 0.1rem; */
+    }
+    .ls{
+        cursor: pointer;
+        font-size: 0.7rem;
+    }
+    
+}

@@ -1,0 +1,33 @@
+.nav-icons{
+    display: flex;
+    justify-content: space-between;
+}
+.right-side{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.r-btn{
+    height: 3rem;
+    width: 80%;
+    align-self: center;
+    background: var(--orange);
+    color: var(--color-white);
+    border-color: transparent;
+}
+/* mobile phone */
+
+@media screen and (max-width: 600px) {
+    .right-side{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .right-side>:nth-child(2){
+        display: none;
+    }
+    .right-side>:nth-child(3){
+        display: none;
+    }
+     
+}

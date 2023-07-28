@@ -1,0 +1,26 @@
+export const TrendData = [
+    {
+        name:"Gunners",
+        shares:99
+    },
+    {
+        name:"WrestlersProtest",
+        shares:88.9
+    },
+    {
+        name:"IndianFootball",
+        shares:67.8
+    },
+    {
+        name:"PoMoneModi",
+        shares:66
+    },
+    {
+        name:"NorthLondonForever",
+        shares:91
+    },
+    {
+        name:"AugmentedReality",
+        shares:58.9
+    },
+]

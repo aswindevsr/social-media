@@ -1,0 +1,32 @@
+.logo{
+    width: 3rem;
+    /* height: 4rem; */
+}
+.logo-search{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+.search{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: var(--cardColor);
+    border-radius: 5rem;
+    padding: 0.3rem;
+}
+.search>input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.search-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(106.23deg, #f99827, #f95f35, 100%);
+    border-radius: 5px;
+    padding: 4px;
+    color: var(--orange);
+}

@@ -1,0 +1,98 @@
+.info-form{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+}
+.btnn {
+    width: max-content;
+    display: inline-block;
+    color: white;
+    background: var(--orange);
+    padding: 0.7rem ;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid var(--hrColor);
+    transition: var(--transition);
+    margin-top: 1rem;
+}
+.info-input{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-start; */
+    background-color: rgb(238, 239, 240);
+    border-radius: 5rem;
+    padding: 0.3rem;
+    align-items: start;
+}
+.info-in{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 0.2rem;
+}
+.info-inp{
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    /* border-color: yellow; */
+}
+.info-container{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+/* background-color: olivedrab; */
+/* width: 60%; */
+}
+.info-main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blue; */
+    flex-direction: column;
+}
+.info-img{
+    display: flex;
+    flex-direction: column;
+}
+
+/* mobile phone */
+
+@media screen and (max-width: 600px) {
+    .info-main-container{
+        width: 100%;
+        background-color: blue;
+    }
+    .info-form{
+        width: 100%;
+    }
+    .info-in{
+        display: flex;
+        flex-direction: column;
+        gap: 0.2rem;
+        padding: 0.2rem;
+    }
+    .info-container{
+        /* background-color: red; */
+        width: 100%;
+    }
+    .info-input{
+        width: 100%;
+        /* padding: 0.2rem; */
+
+    }
+    .btnn {
+        width: max-content;
+        display: inline-block;
+        color: white;
+        background: var(--orange);
+        padding: 0.7rem ;
+        border-radius: 0.4rem;
+        cursor: pointer;
+        border: 1px solid var(--hrColor);
+        transition: var(--transition);
+        margin-top: 1rem;
+    }
+     
+}
