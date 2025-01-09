@@ -68,6 +68,20 @@
     .container{
         grid-template-columns: 1fr;
         gap: 2rem;
+        /* background-color: green; */
+    }
+    .cont-auth{
+        /* background: var(--cardColor); */
+        /* background-color: red; */
+        /* padding: 5rem 5rem; */
+        border-radius: 1rem;
+        /* border: 1px solid transparent;
+        transition: var(--transition);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center; */
+        gap: 2rem;
     }
 }
 
@@ -75,16 +89,16 @@
 
 @media screen and (max-width:600px) {
     .container{
-        width: var(--container-width-lg);
+        /* width: var(--container-width-lg); */
     }
     .left-auth{
         display: none;
     }
     .cont-auth{
-        width: 100%;
+        width: 80%;
     }
     .auth-container{
-        width: 80%;
+        width: 100%;
     }
     .row-auth{
         display: flex;

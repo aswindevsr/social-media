@@ -42,7 +42,7 @@ const Post = ({data}) => {
             </div>
             <span style={{color:"var(--gray)",fontSize:"12px"}}>{likes > 0 && `${likes} likes` }</span>
             <div className="detail">
-                <span><b>{user.firstname} kk</b></span>
+                <span><b>{user.firstname}</b></span>
                 <span> {data.desc}</span>
             </div>
         </div>

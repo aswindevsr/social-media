@@ -49,6 +49,7 @@ html{
 body{
     font-family: 'Poppins', sans-serif;
     background: var(--color-bg);
+    /* background-color: yellow; */
     /* color: var(--color-white); */
     /* line-height: 1.7; */
     /* background-image: url(../src/assets/texture-2.png); */
@@ -59,6 +60,7 @@ body{
 .container{
     width: var(--container-width-lg);
     margin: 0 auto;
+    /* background-color: orange; */
 }
 
 h1,h2,h3,h4,h5 {
@@ -125,6 +127,7 @@ img{
 @media screen and (max-width:1024px) {
     .container{
         width: var(--container-width-md);
+        /* background-color: gray; */
     }
     section > h2{
         margin-top: 6rem;
